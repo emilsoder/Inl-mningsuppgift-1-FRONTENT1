@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link a href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <form class="frm blueStyle size8" name="calc">
+        <table class="tbl" border="0">
+            <tbody>
+                <tr>
+                    <td colspan="4" style="height:65px; width:254; font-size: 20px">
+                        <input name="display" style="height:65px; width:254; font-size: 20px" type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td><input value="0" onclick="calc.display.value+='0'" type="button"></td>
+                    <td><input value="1" onclick="calc.display.value+='1'" type="button"></td>
+                    <td><input value="2" onclick="calc.display.value+='2'" type="button"></td>
+                    <td><input value="+" onclick="calc.display.value+='+'" type="button"></td>
+                </tr>
+                <tr>
+                    <td><input value="3" onclick="calc.display.value+='3'" type="button"></td>
+                    <td><input value="4" onclick="calc.display.value+='4'" type="button"></td>
+                    <td><input value="5" onclick="calc.display.value+='5'" type="button"></td>
+                    <td><input value="-" onclick="calc.display.value+='-'" type="button"></td>
+                </tr>
+                <tr>
+                    <td><input value="6" onclick="calc.display.value+='6'" type="button"></td>
+                    <td><input value="7" onclick="calc.display.value+='7'" type="button"></td>
+                    <td><input value="8" onclick="calc.display.value+='8'" type="button"></td>
+                    <td><input value="x" onclick="calc.display.value+='*'" type="button"></td>
+                </tr>
+                <tr>
+                    <td><input style="border-radius:0px 0px 0px 5px" value="9" onclick="calc.display.value+='9'" type="button"></td>
+                    <td><input value="C" onclick="calc.display.value=''" type="button"></td>
+                    <td><input value="=" onclick="calc.display.value=eval(calc.display.value)" type="button"></td>
+                    <td><input style="border-radius:0px 0px 5px 0px" value="/" onclick="calc.display.value+='/'" type="button"></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+
+</html>

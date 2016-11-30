@@ -1,0 +1,63 @@
+input[type=button] {
+    background-color: whitesmoke;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    width: 60px;
+    height: 60px;
+}
+input[type=text] {
+    background-color: whitesmoke;
+    border: 0.5px solid gray;
+    color: black;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 5px 5px 0px 0px;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+input[type=button]:hover {
+    background-color: #008CBA;
+    color: white;
+}
+input[type=text]:hover {
+    border-color: darkgray;
+    border-width: 2px;
+    background-color: white;
+}
+.tbl {
+    background-color: lightgrey;
+    /* Green */
+    
+    border-color: gray;
+    border-radius: 5px;
+    padding: 2;
+}
+.panel {
+    padding: 0.16px 16px;
+    padding-top: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.blueStyle,
+.hover-blue:hover {
+    color: #fff!important;
+    background-color: #2196F3!important
+}
+.size8 {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)!important
+}
+form {
+    border-radius: 5px;
+    width: 265px;
+    border-color: #2196F3;
+    padding: 5px;
+}
