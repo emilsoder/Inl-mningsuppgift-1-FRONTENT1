@@ -1,2 +1,2 @@
-# Inl-mningsuppgift-1-FRONTENT1
+# Inlamningsuppgift-1-Frontend1
 Kalkylator. HTML, CSS och JS
